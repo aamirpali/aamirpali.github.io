@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Ameer Baksh, Unofficial Web Master. View my open-source projects including YouTube LiteMusic and WordPress plugins.">
+    <meta name="keywords" content="Ameer Baksh, aamirpali, Web Master, PHP, Web Development, Software Engineering, GitHub Portfolio">
+    <meta name="author" content="Ameer Baksh">
+    <title>Ameer Baksh | Unofficial Web Master</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        body { 
+            font-family: 'Inter', sans-serif; 
+            background-color: #0f172a; 
+            color: #f8fafc; 
+        }
+        .bg-gradient {
+            background: radial-gradient(circle at top right, #1e293b, #0f172a);
+        }
+        .glass-card { 
+            background: rgba(30, 41, 59, 0.6); 
+            backdrop-filter: blur(12px); 
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.08); 
+            transition: all 0.3s ease;
+        }
+        .glass-card:hover { 
+            transform: translateY(-5px); 
+            border-color: rgba(56, 189, 248, 0.5);
+            box-shadow: 0 10px 30px -10px rgba(56, 189, 248, 0.3);
+        }
+        .profile-img {
+            box-shadow: 0 0 20px rgba(56, 189, 248, 0.2);
+        }
+    </style>
+</head>
+<body class="bg-gradient min-h-screen antialiased selection:bg-sky-500 selection:text-white">
+
+    <header class="max-w-6xl mx-auto px-6 py-16 md:py-24 flex flex-col items-center text-center">
+        <img src="https://github.com/aamirpali.png" alt="Ameer Baksh Profile" class="w-32 h-32 rounded-full mb-6 profile-img border-2 border-slate-700">
+        
+        <h1 class="text-5xl md:text-6xl font-bold tracking-tight mb-2 text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-blue-600">
+            Ameer Baksh
+        </h1>
+        <p class="text-sm text-slate-400 mb-4">aamirpali &middot; he/him</p>
+        <h2 class="text-xl md:text-2xl text-slate-300 font-medium mb-6">
+            Unofficial Web Master
+        </h2>
+        
+        <div class="flex flex-wrap justify-center gap-x-6 gap-y-3 text-slate-400 text-sm mb-8">
+            <span class="flex items-center gap-2"><i class="fa-solid fa-location-dot"></i> India</span>
+            <a href="mailto:aamir.pali@gmail.com" class="hover:text-sky-400 flex items-center gap-2 transition-colors"><i class="fa-solid fa-envelope"></i> aamir.pali@gmail.com</a>
+            <a href="https://ameerbaksh.in" target="_blank" class="hover:text-sky-400 flex items-center gap-2 transition-colors"><i class="fa-solid fa-link"></i> ameerbaksh.in</a>
+        </div>
+        
+        <div class="flex flex-wrap justify-center gap-6 mb-8">
+            <a href="https://github.com/aamirpali" target="_blank" class="text-slate-400 hover:text-white transition-colors" aria-label="GitHub">
+                <i class="fa-brands fa-github text-xl"></i>
+            </a>
+            <a href="https://instagram.com/ameer.baksh5" target="_blank" class="text-slate-400 hover:text-pink-500 transition-colors flex items-center gap-2" aria-label="Instagram">
+                <i class="fa-brands fa-instagram text-xl"></i> <span class="text-sm">ameer.baksh5</span>
+            </a>
+            <a href="https://facebook.com/aamir.baksh.khan" target="_blank" class="text-slate-400 hover:text-blue-500 transition-colors flex items-center gap-2" aria-label="Facebook">
+                <i class="fa-brands fa-facebook text-xl"></i> <span class="text-sm">aamir.baksh.khan</span>
+            </a>
+        </div>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-6 pb-24">
+        <div class="flex justify-between items-end mb-8 border-b border-slate-800 pb-4">
+            <h3 class="text-2xl font-semibold">Popular Repositories</h3>
+            <a href="https://github.com/aamirpali?tab=repositories" target="_blank" class="text-sky-400 hover:text-sky-300 text-sm font-medium transition-colors">
+                View all on GitHub &rarr;
+            </a>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-6">
+            
+            <article class="glass-card rounded-2xl p-6 flex flex-col h-full cursor-pointer" onclick="window.open('https://github.com/aamirpali/blog-script', '_blank')">
+                <div class="flex justify-between items-start mb-4">
+                    <h4 class="text-xl font-semibold text-sky-400">blog-script</h4>
+                    <span class="text-xs px-2 py-1 rounded-full border border-slate-600 text-slate-400">Public</span>
+                </div>
+                <p class="text-slate-400 text-sm mb-6 flex-grow"></p>
+                <div class="flex items-center justify-between text-xs text-slate-500 mt-auto pt-4 border-t border-slate-800">
+                    <span class="flex items-center gap-1">
+                        <i class="fa-solid fa-circle text-[8px] text-indigo-400"></i> PHP
+                    </span>
+                </div>
+            </article>
+
+            <article class="glass-card rounded-2xl p-6 flex flex-col h-full cursor-pointer" onclick="window.open('https://github.com/aamirpali/Mass-User-Generator-WordPress', '_blank')">
+                <div class="flex justify-between items-start mb-4">
+                    <h4 class="text-xl font-semibold text-sky-400">Mass-User-Generator-WordPress</h4>
+                    <span class="text-xs px-2 py-1 rounded-full border border-slate-600 text-slate-400">Public</span>
+                </div>
+                <p class="text-slate-400 text-sm mb-6 flex-grow">
+                    Mass User Generator plugin allows you to generate multiple user accounts with options such as password, gender selection, and user role. This plugin is useful for populating a WordPress website wit...
+                </p>
+                <div class="flex items-center justify-between text-xs text-slate-500 mt-auto pt-4 border-t border-slate-800">
+                    <span class="flex items-center gap-1">
+                        <i class="fa-solid fa-circle text-[8px] text-indigo-400"></i> PHP
+                    </span>
+                </div>
+            </article>
+
+            <article class="glass-card rounded-2xl p-6 flex flex-col h-full cursor-pointer" onclick="window.open('https://github.com/aamirpali/Support-Palestine', '_blank')">
+                <div class="flex justify-between items-start mb-4">
+                    <h4 class="text-xl font-semibold text-sky-400">Support-Palestine</h4>
+                    <span class="text-xs px-2 py-1 rounded-full border border-slate-600 text-slate-400">Public</span>
+                </div>
+                <p class="text-slate-400 text-sm mb-6 flex-grow">
+                    Free Palestine Responsive html css code page
+                </p>
+                <div class="flex items-center justify-between text-xs text-slate-500 mt-auto pt-4 border-t border-slate-800">
+                    <span class="flex items-center gap-1">
+                        <i class="fa-solid fa-circle text-[8px] text-orange-500"></i> HTML
+                    </span>
+                </div>
+            </article>
+
+            <article class="glass-card rounded-2xl p-6 flex flex-col h-full cursor-pointer" onclick="window.open('https://github.com/aamirpali/HTML-Under-Maintenance', '_blank')">
+                <div class="flex justify-between items-start mb-4">
+                    <h4 class="text-xl font-semibold text-sky-400">HTML-Under-Maintenance</h4>
+                    <span class="text-xs px-2 py-1 rounded-full border border-slate-600 text-slate-400">Public</span>
+                </div>
+                <p class="text-slate-400 text-sm mb-6 flex-grow"></p>
+                <div class="flex items-center justify-between text-xs text-slate-500 mt-auto pt-4 border-t border-slate-800">
+                    <span class="flex items-center gap-1">
+                        <i class="fa-solid fa-circle text-[8px] text-orange-500"></i> HTML
+                    </span>
+                </div>
+            </article>
+
+            <article class="glass-card rounded-2xl p-6 flex flex-col h-full cursor-pointer" onclick="window.open('https://github.com/aamirpali/faketweetPrank', '_blank')">
+                <div class="flex justify-between items-start mb-4">
+                    <h4 class="text-xl font-semibold text-sky-400">faketweetPrank</h4>
+                    <span class="text-xs px-2 py-1 rounded-full border border-slate-600 text-slate-400">Public</span>
+                </div>
+                <p class="text-slate-400 text-sm mb-6 flex-grow">
+                    fake tweet generator for prank use only
+                </p>
+                <div class="flex items-center justify-between text-xs text-slate-500 mt-auto pt-4 border-t border-slate-800">
+                    <span class="flex items-center gap-1">
+                        <i class="fa-solid fa-circle text-[8px] text-indigo-400"></i> PHP
+                    </span>
+                </div>
+            </article>
+
+            <article class="glass-card rounded-2xl p-6 flex flex-col h-full cursor-pointer" onclick="window.open('https://github.com/aamirpali/youtube-litemusic', '_blank')">
+                <div class="flex justify-between items-start mb-4">
+                    <h4 class="text-xl font-semibold text-sky-400">youtube-litemusic</h4>
+                    <span class="text-xs px-2 py-1 rounded-full border border-slate-600 text-slate-400">Public</span>
+                </div>
+                <p class="text-slate-400 text-sm mb-6 flex-grow">
+                    A fast, lightweight audio-only streaming web app that uses the YouTube Data API v3 to play video streams as background audio.
+                </p>
+                <div class="flex items-center justify-between text-xs text-slate-500 mt-auto pt-4 border-t border-slate-800">
+                    <span class="flex items-center gap-1">
+                        </span>
+                </div>
+            </article>
+
+        </div>
+    </main>
+
+    <footer class="border-t border-slate-800 text-center py-8 text-slate-500 text-sm">
+        <p>&copy; 2026 Ameer Baksh. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
